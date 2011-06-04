@@ -12,6 +12,7 @@
     "node" : "0.4.x"
   },
   "dependencies": {
-    "express-form" : "0.5.x"
+    "express-form" : "0.5.x",
+    "twilio": "0.4.x"
   }
 }
