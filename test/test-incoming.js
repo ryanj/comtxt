@@ -1,10 +1,14 @@
 /**
  * Tests for incoming messages
  */
-var server = require('./lib/server.js');
+process.env.NODE_ENV = 'test';
+
+var assert = require('assert');
+var server = require('../lib/server.js');
+var app = server.app;
  
 exports['test incoming signup'] = function() {
-    assert.response(server, {
+    assert.response(app, {
             url: '/listener',
             method: 'POST',
             data: 'bar baz'
@@ -14,5 +18,6 @@ exports['test incoming signup'] = function() {
         }, function(res) {
         console.log('testing');
         // All done, do some more tests if needed
+        assert.equal(res.statusCode, 200);
     });
 };
