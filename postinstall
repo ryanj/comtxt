@@ -1,0 +1,2 @@
+# DotCloud deploy post install
+cp /home/dotcloud/settings.js /home/dotcloud/current/lib/settings/settings.js
