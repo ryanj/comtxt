@@ -37,3 +37,7 @@ researching integration with:
 * subscribe via SMS
 * unsubscribe via SMS
 * update prefs via web?
+
+## Testing
+* Using Expresso
+* To run tests: `./node_modules/expresso/bin/expresso -I lib`
