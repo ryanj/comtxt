@@ -1,0 +1,17 @@
+{
+  "name": "ComTxt",
+  "version": "1.0.0",
+  "description" : "ComTxt is a message platform for communities.",
+  "homepage" : "http://codeforoakland.org",
+  "main" : "lib/server.js",
+  "repository" : { 
+    "type" : "git",
+    "url" : "git@github.com:ryanjarvinen/comtxt.git"
+  },
+  "engines" : {
+    "node" : "0.4.x"
+  },
+  "dependencies": {
+    "express-form" : "0.5.x"
+  }
+}
